@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="7.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RP.ExpenseTracker.Common\RP.ExpenseTracker.Common.csproj" />
+    <ProjectReference Include="..\RP.ExpenseTracker.DataAccess\RP.ExpenseTracker.DataAccess.csproj" />
+  </ItemGroup>
+
+</Project>
